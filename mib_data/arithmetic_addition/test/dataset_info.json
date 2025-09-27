@@ -1,0 +1,212 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "arithmetic_addition",
+  "dataset_size": 18402758,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mib-bench/arithmetic_addition@d56d68b7b1d8f9c7e9a262ec1f89331ed52c7516/train.jsonl": {
+      "num_bytes": 32633878,
+      "checksum": null
+    },
+    "hf://datasets/mib-bench/arithmetic_addition@d56d68b7b1d8f9c7e9a262ec1f89331ed52c7516/validation.jsonl": {
+      "num_bytes": 4657201,
+      "checksum": null
+    },
+    "hf://datasets/mib-bench/arithmetic_addition@d56d68b7b1d8f9c7e9a262ec1f89331ed52c7516/test.jsonl": {
+      "num_bytes": 943532,
+      "checksum": null
+    }
+  },
+  "download_size": 38234611,
+  "features": {
+    "idx": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "template": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "operator": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "num_digit": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "random_counterfactual": {
+      "label": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand1": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand2": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "ones_op1_counterfactual": {
+      "label": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand1": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand2": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "ones_op2_counterfactual": {
+      "label": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand1": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand2": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "tens_op1_counterfactual": {
+      "label": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand1": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand2": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "tens_op2_counterfactual": {
+      "label": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand1": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand2": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "ones_carry_counterfactual": {
+      "label": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand1": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand2": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "tens_carry_counterfactual": {
+      "label": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand1": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "operand2": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "operand1": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "operand2": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 56637369,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 15705594,
+      "num_examples": 34440,
+      "dataset_name": "arithmetic_addition"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 2243602,
+      "num_examples": 4920,
+      "dataset_name": "arithmetic_addition"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 453562,
+      "num_examples": 1000,
+      "dataset_name": "arithmetic_addition"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

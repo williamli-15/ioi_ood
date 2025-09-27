@@ -1,0 +1,230 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "arc_challenge",
+  "dataset_size": 5945427,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mib-bench/arc_challenge@ab946b6cf3e2543e590adbeebd531c52b8eb4ff8/train.jsonl": {
+      "num_bytes": 3839623,
+      "checksum": null
+    },
+    "hf://datasets/mib-bench/arc_challenge@ab946b6cf3e2543e590adbeebd531c52b8eb4ff8/validation.jsonl": {
+      "num_bytes": 1058280,
+      "checksum": null
+    },
+    "hf://datasets/mib-bench/arc_challenge@ab946b6cf3e2543e590adbeebd531c52b8eb4ff8/test.jsonl": {
+      "num_bytes": 2066855,
+      "checksum": null
+    }
+  },
+  "download_size": 6964758,
+  "features": {
+    "arc_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "choices": {
+      "text": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "List"
+      },
+      "label": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "List"
+      }
+    },
+    "prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answerKey": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "answerPosition_counterfactual": {
+      "question": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "choices": {
+        "text": {
+          "feature": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "_type": "List"
+        },
+        "label": {
+          "feature": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "_type": "List"
+        }
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "label": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "answerKey": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    "symbol_counterfactual": {
+      "question": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "choices": {
+        "text": {
+          "feature": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "_type": "List"
+        },
+        "label": {
+          "feature": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "_type": "List"
+        }
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "label": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "answerKey": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    "randomLetter_counterfactual": {
+      "question": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "choices": {
+        "text": {
+          "feature": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "_type": "List"
+        },
+        "label": {
+          "feature": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "_type": "List"
+        }
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "label": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "answerKey": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    "answerPosition_randomLetter_counterfactual": {
+      "question": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "choices": {
+        "text": {
+          "feature": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "_type": "List"
+        },
+        "label": {
+          "feature": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "_type": "List"
+        }
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "label": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "answerKey": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    "idx": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 12910185,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 3270962,
+      "num_examples": 1119,
+      "dataset_name": "arc_challenge"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 905999,
+      "num_examples": 299,
+      "dataset_name": "arc_challenge"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1768466,
+      "num_examples": 586,
+      "dataset_name": "arc_challenge"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

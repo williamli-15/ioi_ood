@@ -1,0 +1,230 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "arc_easy",
+  "dataset_size": 10269082,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mib-bench/arc_easy@be6999b975e8348387cc9a21f3c8b6be8021e7d6/train.jsonl": {
+      "num_bytes": 6871907,
+      "checksum": null
+    },
+    "hf://datasets/mib-bench/arc_easy@be6999b975e8348387cc9a21f3c8b6be8021e7d6/validation.jsonl": {
+      "num_bytes": 1747676,
+      "checksum": null
+    },
+    "hf://datasets/mib-bench/arc_easy@be6999b975e8348387cc9a21f3c8b6be8021e7d6/test.jsonl": {
+      "num_bytes": 3689635,
+      "checksum": null
+    }
+  },
+  "download_size": 12309218,
+  "features": {
+    "arc_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "choices": {
+      "text": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "List"
+      },
+      "label": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "List"
+      }
+    },
+    "prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answerKey": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "answerPosition_counterfactual": {
+      "question": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "choices": {
+        "text": {
+          "feature": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "_type": "List"
+        },
+        "label": {
+          "feature": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "_type": "List"
+        }
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "label": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "answerKey": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    "symbol_counterfactual": {
+      "question": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "choices": {
+        "text": {
+          "feature": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "_type": "List"
+        },
+        "label": {
+          "feature": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "_type": "List"
+        }
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "label": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "answerKey": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    "randomLetter_counterfactual": {
+      "question": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "choices": {
+        "text": {
+          "feature": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "_type": "List"
+        },
+        "label": {
+          "feature": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "_type": "List"
+        }
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "label": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "answerKey": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    "answerPosition_randomLetter_counterfactual": {
+      "question": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "choices": {
+        "text": {
+          "feature": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "_type": "List"
+        },
+        "label": {
+          "feature": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "_type": "List"
+        }
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "label": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "answerKey": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    "idx": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 22578300,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 5726838,
+      "num_examples": 2251,
+      "dataset_name": "arc_easy"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 1457401,
+      "num_examples": 570,
+      "dataset_name": "arc_easy"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 3084843,
+      "num_examples": 1188,
+      "dataset_name": "arc_easy"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

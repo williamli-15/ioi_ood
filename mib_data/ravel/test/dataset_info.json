@@ -1,0 +1,172 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "ravel",
+  "dataset_size": 95684271,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mib-bench/ravel@53dc7a4dbe84276567b895d8fb608b3f169b9276/data/train-00000-of-00001.parquet": {
+      "num_bytes": 10334180,
+      "checksum": null
+    },
+    "hf://datasets/mib-bench/ravel@53dc7a4dbe84276567b895d8fb608b3f169b9276/data/val-00000-of-00001.parquet": {
+      "num_bytes": 1988470,
+      "checksum": null
+    },
+    "hf://datasets/mib-bench/ravel@53dc7a4dbe84276567b895d8fb608b3f169b9276/data/test-00000-of-00001.parquet": {
+      "num_bytes": 130073,
+      "checksum": null
+    }
+  },
+  "download_size": 12452723,
+  "features": {
+    "template": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "entity": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "attribute": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "prompt_template_counterfactual": {
+      "Continent": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "Country": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "Language": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "attribute": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "entity": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "template": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "attribute_counterfactual": {
+      "Continent": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "Country": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "Language": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "attribute": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "entity": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "template": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "wikipedia_counterfactual": {
+      "Continent": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "Country": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "Language": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "attribute": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "entity": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "prompt": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "template": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "Continent": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Country": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Language": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 108136994,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 82920790,
+      "num_examples": 100347,
+      "dataset_name": "ravel"
+    },
+    "val": {
+      "name": "val",
+      "num_bytes": 12014624,
+      "num_examples": 15950,
+      "dataset_name": "ravel"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 748857,
+      "num_examples": 1000,
+      "dataset_name": "ravel"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
